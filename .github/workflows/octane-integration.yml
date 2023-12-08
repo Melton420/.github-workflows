@@ -39,9 +39,9 @@ jobs:
           octaneSharedSpace: 1001
           octaneWorkspace: 1002
           octaneClientId: github actions_8d97kolx9qjyqb00ovz1ykq0l
-          octaneClientSecret: ${{)1989611011917821897188R}}
+          octaneClientSecret: )1989611011917821897188R
           # Automatically provided GitHub token          
-          githubToken: ${{secrets.GITHUB_TOKEN}}
+          githubToken: secrets.GITHUB_TOKEN
           # The url that the CI Server in ALM Octane will point to          
           serverBaseUrl: https://github.com/Melton420/.github-workflows.git
           # Pattern for identifying JUnit style report files for test result injection in ALM Octane
