@@ -30,8 +30,8 @@ jobs:
       - name: ALM Octane GitHub Actions Integration
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: MicroFocus/alm-octane-github-actions-integration@v23.3.0
-      - id: gitHubActionsIntegration
+        uses: MicroFocus/alm-octane-github-actions-integration@v23.3.0
+        id: gitHubActionsIntegration
         # Config parameters for the integration
         with:
           # ALM Octane connection data
