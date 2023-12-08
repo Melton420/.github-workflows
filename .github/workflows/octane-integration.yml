@@ -35,7 +35,7 @@ jobs:
         # Config parameters for the integration
         with:
           # ALM Octane connection data
-          octaneUrl: 'http://nimbusserver.aos.com:8085/ui/'
+          octaneUrl: 'http://nimbusserver.aos.com:8085'
           octaneSharedSpace: 1001
           octaneWorkspace: 1002
           octaneClientId: github actions_8d97kolx9qjyqb00ovz1ykq0l
