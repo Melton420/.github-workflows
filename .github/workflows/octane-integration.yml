@@ -1,4 +1,4 @@
-name: OctaneIntegration
+name: Octane Integration
 # Events the integration should be triggered on
 on:
   pull_request:
@@ -23,9 +23,9 @@ jobs:
         # Config parameters for the integration
         with:
           # ALM Octane connection data
-          octaneUrl: <http://nimbusserver.aos.com:8085/ui/>
-          octaneSharedSpace: <1001>
-          octaneWorkspace: <1002>
+          octaneUrl: http://nimbusserver.aos.com:8085
+          octaneSharedSpace: 1001
+          octaneWorkspace: 1002
           octaneClientId: ${{github actions_8d97kolx9qjyqb00ovz1ykq0l}}
           octaneClientSecret: ${{)1989611011917821897188R}}
           # Automatically provided GitHub token          
